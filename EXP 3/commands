@@ -1,0 +1,8 @@
+javac AddInterface.java
+javac Add.java
+rmic Add
+javac AddServer.java
+javac AddClient.java
+
+
+java Client
