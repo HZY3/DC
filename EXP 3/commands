@@ -3,6 +3,9 @@ javac Add.java
 rmic Add
 javac AddServer.java
 javac AddClient.java
+rmiregistry & [1] 5846
 
+java AddServer
+java AddClient
 
-java Client
+theory in AddClient
