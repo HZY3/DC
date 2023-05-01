@@ -64,4 +64,66 @@ if __name__ == '__main__':
 
 	# initialize the Slave / Client
 	initiateSlaveClient(port = 8080)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+- Clock synchronization refers to the process of ensuring that the clocks of different nodes in the system are accurately synchronized with each other.
+- The algorithms are used to ensure that the clocks in distributed system are accurate and consistent.
+- In a distributed system, clocks can drift apart due to variations in clock speed.
+- Two types are: Berkely and Ring.
+
+- Berkeley’s Algorithm is a clock synchronization technique used in distributed systems.
+- It assumes that each machine node in the network either doesn’t have an accurate time source or doesn’t possess a UTC server.
+- The time server periodically sends a request message “time=?” to all nodes.
+- Each node sends back its time value to the time server.
+- The time server has an idea of message propagation of each node, and it readjusts the clock values in the reply message.
+- It takes an average of clock values (including its own) and readjusts its own clock.
+- It avoids reading from unreliable clocks.
+- For adjustment, it sends the factor by which other nodes require adjustment.
+- The readjustment values can be positive or negative.
+- The time server being a centralized node, can be a single point of failure, and may not be able to serve all requests from a scalability point of view.
+
+- Consistency
+- Correctness
+- Security
+- Debugging
+'''
 	
