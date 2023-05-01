@@ -1,0 +1,9 @@
+exp2 Data collection        web scrapper
+exp3 data cleaning          openrefine or https://colab.research.google.com/drive/1G1pVp5MeJGSiOmmve-whF_xfunnRfp2a?authuser=1#scrollTo=1213acc7
+exp4 Visualization          bouyant
+exp5 text analysis          https://clientzen.io/sentiment-analysis-tool
+exp6 network                https://colab.research.google.com/drive/1M0wpNrpRpTkWmmCv1xfAR2OoBODNHLhT?authuser=1
+exp7 twitter                https://colab.research.google.com/drive/1B38Db3fs4oYHizPMXvOLWwijjaAHtNJi?authuser=1#scrollTo=6tHaKRrUBl8k
+exp8  creative              canva
+exp9 competior activities   -
+exp10 text analysis         https://clientzen.io/sentiment-analysis-tool
